@@ -10,8 +10,6 @@ docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:3
 
 Bu komutu kullanarak RabbitMQ ü docker olarak kurulumunu yapıyoruz. Burada default port 5672 dir. 
 
-RabbitMQ bir management arayüzüne sahiptir. RabbitMQ ve yönetim rayüzünü tek pakette kurmak ilgili komutumuz
-
 ```powershell
 docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management
 ```
