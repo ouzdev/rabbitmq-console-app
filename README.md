@@ -36,7 +36,7 @@ Bunun için bu komutu kullanıyoruz. Burada 15672 portunu ana bilgisayarın 8080
 docker run -d --hostname my-rabbit --name some-rabbit -p 8080:15672 rabbitmq:3-management
 ```
 
-> ***Önemli olarak docker image ın run edildikten sonra bir süre beklendikten sonra RabbitMQ aktif hale gelecektir.***
+> ***Önemli olarak docker image ın run edildikten sonra bir süre beklendikten sonra RabbitMQ aktif hale gelecektir. Bunu log kayıtları üzerinden teyit edebiliriz***
 > 
 
 ### RabbitMQ Docker Container Oluşturma (AMQP / Management)
